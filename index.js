@@ -40,4 +40,4 @@ server.get('/*', (req, res) => {
     res.send('<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Document</title></head><body><img src="https://www.areinfotech.com/img/404.gif" class="page"><style>*{margin: 0;padding: 0;}body{height: 100vh;display: flex;align-items: center;justify-content: center;}.page{width: 100%;height: 100%;object-fit: cover;background-size: cover;}</style></body></html>');
 });
 
-server.listen(5000)
+server.listen(process.env.PORT || 5000)
