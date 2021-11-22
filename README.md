@@ -2,7 +2,7 @@
 Free-Web-Host-Online
 
 
-web https://free-web-host-online.herokuapp.com/
+web https://ultrontheai.github.io/FWHO/
 
 # api
 
